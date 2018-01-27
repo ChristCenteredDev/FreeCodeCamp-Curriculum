@@ -39,6 +39,11 @@ header {
 	text-align: center;
 }
 
+#tribute-info ul {
+	width: 70%;
+	margin: auto;
+}
+
 #tribute-info span {
 	font-weight: 700;
 }
