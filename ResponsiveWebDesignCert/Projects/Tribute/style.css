@@ -1,5 +1,6 @@
-body {
-	
+a {
+	text-decoration: none;
+	color: darkgreen;
 }
 
 /* HEADER SECTION */
@@ -35,7 +36,7 @@ header {
 	background-color: lightgray;
 }
 
-#tribute-info h3 {
+#tribute-info h3, #tribute-info p {
 	text-align: center;
 }
 
@@ -47,3 +48,12 @@ header {
 #tribute-info span {
 	font-weight: 700;
 }
+
+/* FOOTER SECTION */
+
+footer {
+	background-color: lightgray;
+	width: 40%;
+	margin: auto;
+}
+
