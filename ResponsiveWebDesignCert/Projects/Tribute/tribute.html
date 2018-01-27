@@ -10,21 +10,21 @@
 <body>
     <div id="main">
         <!-- <<<<<<< Test Suite Requirements >>>>>>>
-            #Technology Stack
-            1. You can use HTML, JavaScript, and CSS to complete this project. Plain CSS is recommended because that is what the lessons have covered so far and you should get some practice with plain CSS. You can use Bootstrap or SASS if you choose. Additional technologies (just for example jQuery, React, Angular, or Vue) are not recommended for this project, and using them is at your own risk. Other projects will give you a chance to work with different technology stacks like React. We will accept and try to fix all issue reports that use the suggested technology stack for this project. Happy coding!
+    #Technology Stack
+    1. You can use HTML, JavaScript, and CSS to complete this project. Plain CSS is recommended because that is what the lessons have covered so far and you should get some practice with plain CSS. You can use Bootstrap or SASS if you choose. Additional technologies (just for example jQuery, React, Angular, or Vue) are not recommended for this project, and using them is at your own risk. Other projects will give you a chance to work with different technology stacks like React. We will accept and try to fix all issue reports that use the suggested technology stack for this project. Happy coding!
 
-            #Content
-            1. My tribute page should have an element with corresponding id="main", which contains all other elements.
-            2. I should see an element with corresponding id="title", which contains a string (i.e. text) that describes the subject of the tribute page (e.g. "Dr. Norman Borlaug").
-            3. I should see a <div> element with corresponding id="img-div".
-            4. Within the "img-div" element, I should see an <img> element with a corresponding id="image"
-            5. Within the "img-div" element, I should see an element with a corresponding id="img-caption" that contains textual content describing the image shown in "img-div".
-            6. I should see an element with a corresponding id="tribute-info", which contains textual content describing the subject of the tribute page.
-            7. I should see an <a> element with a corresponding id="tribute-link", which links to an outside site that contains additional information about the subject of the tribute page. HINT: You must give your element an attribute of target and set it to "_blank" in order for your link to open in a new tab (i.e. target="_blank").
+    #Content
+    1. My tribute page should have an element with corresponding id="main", which contains all other elements.
+    2. I should see an element with corresponding id="title", which contains a string (i.e. text) that describes the subject of the tribute page (e.g. "Dr. Norman Borlaug").
+    3. I should see a <div> element with corresponding id="img-div".
+    4. Within the "img-div" element, I should see an <img> element with a corresponding id="image"
+    5. Within the "img-div" element, I should see an element with a corresponding id="img-caption" that contains textual content describing the image shown in "img-div".
+    6. I should see an element with a corresponding id="tribute-info", which contains textual content describing the subject of the tribute page.
+    7. I should see an <a> element with a corresponding id="tribute-link", which links to an outside site that contains additional information about the subject of the tribute page. HINT: You must give your element an attribute of target and set it to "_blank" in order for your link to open in a new tab (i.e. target="_blank").
 
-            #Layout
-            1. The <img> element should responsively resize, relative to the width of its parent element, without exceeding its original size.
-            2. The <img> element should be centered within its parent element. -->
+    #Layout
+    1. The <img> element should responsively resize, relative to the width of its parent element, without exceeding its original size.
+    2. The <img> element should be centered within its parent element. -->
 
         <header>
             <h1 id="title">Yeshua Ha-Mashiach / Jesus Christ</h1>
@@ -32,11 +32,15 @@
         </header>
 
         <div id="img-div">
-            <img id="image" src="https://s13.postimg.org/wh97t96uv/lion-judah.jpg" alt="The Lord Jesus Christ" />  
+            <img id="image" src="https://s13.postimg.org/wh97t96uv/lion-judah.jpg" alt="The Lord Jesus Christ" />
 
             <div id="img-caption">
                 Provide information about the image of the Lord Jesus Christ...
             </div>
+        </div>
+
+        <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/7_CGP-12AE0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         </div>
 
         <div id="tribute-info">
@@ -90,17 +94,21 @@
                 <li><span>33, Iyyar 25 - </span>Jesus’ ascension to Heaven, 40th day after his resurrection (Ac 1:9-12)</li>
             </ul>
 
-            <p><cite><a href="https://www.jw.org/en/publications/bible/nwt/appendix-a/events-in-jesus-life-on-earth/" target="_blank"><strong>Reference for Main Events of Jesus’ Earthly Life</strong></a></cite></p>
+            <p><cite><a id="tribute-link" href="https://www.jw.org/en/publications/bible/nwt/appendix-a/events-in-jesus-life-on-earth/" target="_blank"><strong>Reference for Main Events of Jesus’ Earthly Life</strong></a></cite></p>
         </div>
 
         <footer>
-            <p><em>Jesus said "I am the way, the truth, and the life: <strong>no man cometh unto the Father, but by me</strong>."</em>
-            <br />
-            <em>--John 14:6 (KJV)</em></p>
-            
-            <p><em>Jesus said "Love your enemies, bless them that curse you, do good to them that hate you, and pray for them which despitefully use you, and persecute you"</em>
-            <br />
-            <em>--Matthew 5:44</em></p>
+            <p>
+                <em>Jesus said "I am the way, the truth, and the life: <strong>no man cometh unto the Father, but by me</strong>."</em>
+                <br />
+                <em>--John 14:6 (KJV)</em>
+            </p>
+
+            <p>
+                <em>Jesus said "Love your enemies, bless them that curse you, do good to them that hate you, and pray for them which despitefully use you, and persecute you"</em>
+                <br />
+                <em>--Matthew 5:44</em>
+            </p>
 
             <h3>Read more from the <a href="https://www.biblegateway.com/" target="_blank">New Testament.</a></h3>
         </footer>
