@@ -1,34 +1,56 @@
 a {
 	text-decoration: none;
+	color: white;
+}
+
+a:hover {
 	color: darkgreen;
 }
 
 body {
 	background-color: lightgray;
 	font-size: 20px;
+	margin: 0px;
 }
 
 /* HEADER SECTION */
 
 header {
-	background-color: lightgray;
+	/*  
+	position: fixed;
+	width: 100%;
+	*/
+	background-color: rgb(43, 43, 43);
+	color: rgb(226, 223, 223);
 	text-align: center;
 	padding: 15px 0px;
 }
 
-/* IMAGE SECTION */
+header #title {
+	margin: 0px 0px 0px 0px;
+}
 
+header p {
+	margin: 10px 0px;
+}
+
+.made-by {
+	font-size: 16px;
+}
+
+/* IMAGE SECTION */
 #img-div {
-	width: 95%;
-	margin: 5px auto 20px auto;
+	width: 100%;
+	margin: 20px auto 20px auto;
 	background-color: lightgray;
 }
 
 #image {
-	width: 100%;
+	width: 70%;
 	display: block;
 	margin: auto;
-	max-width: 1400px;  /* MERELY FOR FCC TEST TO PASS */
+	border: 8px solid rgb(43, 43, 43);
+	max-width: 1400px; /* MERELY FOR FCC TEST TO PASS */
 }
 
 #img-caption {
@@ -75,13 +97,22 @@ header {
 /* FOOTER SECTION */
 
 footer {
-	background-color: lightgray;
+	background-color: rgb(43, 43, 43);
 	width: 40%;
+	padding: 10px;
+	border: 10px solid rgb(43, 43, 43);
+	border-radius: 5px;
 	margin: auto;
+}
+
+footer p {
+	margin: 20px;
+	color: rgb(226, 223, 223);
 }
 
 footer h3 {
 	text-align: center;
+	color: rgb(226, 223, 223);
 }
 
 /* MEDIA QUERIES */
