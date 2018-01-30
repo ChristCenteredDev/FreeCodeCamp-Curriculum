@@ -5,6 +5,7 @@ a {
 
 body {
 	background-color: lightgray;
+	font-size: 20px;
 }
 
 /* HEADER SECTION */
@@ -19,7 +20,7 @@ header {
 
 #img-div {
 	width: 95%;
-	margin: 48px auto;
+	margin: 5px auto 20px auto;
 	background-color: lightgray;
 }
 
@@ -81,4 +82,35 @@ footer {
 
 footer h3 {
 	text-align: center;
+}
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 1200px) {
+
+	footer {
+		width: 45%;
+	}
+
+}
+
+@media only screen and (max-width: 900px) {
+
+	footer {
+		width: 55%;
+	}
+}
+
+@media only screen and (max-width: 700px) {
+
+	footer {
+		width: 65%;
+	}
+}
+
+@media only screen and (max-width: 485px) {
+
+	footer {
+		width: 75%;
+	}
 }
