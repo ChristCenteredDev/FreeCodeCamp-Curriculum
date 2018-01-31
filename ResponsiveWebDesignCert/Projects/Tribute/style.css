@@ -12,6 +12,7 @@ body {
 	background-color: lightgray;
 	font-size: 20px;
 	margin: 0px;
+    min-width: 430px;
 }
 
 /* HEADER SECTION */
@@ -49,7 +50,7 @@ header p {
 }
 
 #image {
-    width: 70%;
+    width: 75%;
     display: block;
     margin: auto;
     border: 5px solid #D7B740;
@@ -94,6 +95,7 @@ header p {
 #tribute-info ul {
     width: 70%;
     margin: auto;
+    padding: 0px;
     list-style: none;
 }
 
@@ -140,13 +142,19 @@ footer h3 {
 		width: 45%;
 	}
 
-}
+    #img-caption {
+        width: 45%;
+    }
 
 @media only screen and (max-width: 900px) {
 
 	footer {
 		width: 55%;
 	}
+
+    #img-caption {
+        width: 55%;
+    }
 }
 
 @media only screen and (max-width: 700px) {
@@ -154,6 +162,10 @@ footer h3 {
 	footer {
 		width: 65%;
 	}
+
+    #img-caption {
+        width: 65%;
+    }
 }
 
 @media only screen and (max-width: 485px) {
@@ -161,4 +173,8 @@ footer h3 {
 	footer {
 		width: 75%;
 	}
+
+    #img-caption {
+        width: 75%;
+    }
 }
