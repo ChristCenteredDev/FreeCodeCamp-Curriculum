@@ -12,7 +12,6 @@ body {
 	background-color: lightgray;
 	font-size: 20px;
 	margin: 0px;
-    min-width: 430px;
 }
 
 /* HEADER SECTION */
@@ -170,11 +169,41 @@ footer h3 {
 
 @media only screen and (max-width: 485px) {
 
-	footer {
-		width: 75%;
-	}
+    /* Bug Fixed with small phones, now completely responsive from 234+ width */
+
+    body {
+        font-size: 10px;
+    }
+
+    header {
+        border: 3px solid #D7B740;
+    }
+
+    #image {
+        border: 3px solid #D7B740;
+    }
+
+    .made-by {
+        font-size: 9px;
+    }
+
+    footer {
+        width: 75%;
+        padding: 3px;
+        border: 3px solid #D7B740;
+        border-radius: 10px;
+    }
 
     #img-caption {
         width: 75%;
     }
+
+    .border-imprv {
+        background-color: rgb(43, 43, 43);
+        padding: 3px 18px;
+        border: 3px solid #D7B740;
+        border-radius: 10px;
+    }
+
+
 }
