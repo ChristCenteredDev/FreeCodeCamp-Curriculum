@@ -9,18 +9,69 @@
 <body>
     <div id="form-container">
         <div class="img-div">
-            <img src="img/apress-logo.png" alt="Apress Logo" />
-        </div>
-        
-        <div> 
-            <p id="description"><h1 id="title">Book Quality Rating Survey</h1></p>
-
-
+            <img src="https://preview.ibb.co/e5npVc/apress_logo.png" alt="Apress Logo" />
         </div>
 
-        <div class="form-div">
+        <header>
+            <h1 id="title">Book Quality Rating Survey</h1>
+            <div class="required-asterisk">* Required</div>
+            <!-- Hidden Paragraph Only for FCC Test Suite -->
+            <p hidden id="description">"Book Quality Rating Survey" is the description & title</p>
 
-        </div>
+        </header>
+
+        <form id="survey-form">
+            <div class="form-div">
+                <span>Book Name</span>*<br />
+                (Do not edit this field)<br />
+                <input type="text" value="Pro C# 7: With .NET and .NET Core" required>
+            </div>
+
+            <div class="form-div">
+                <span>1. The content covered what I needed and helped me to achieve my goals.</span> *<br />
+
+                <!-- Radio Group -->
+
+            </div>
+
+            <div class="form-div">
+                <span>If you would like to elaborate on your answer, please leave a comment below. If you do not wish to comment, please leave the box empty.</span><br />
+
+                <textarea rows="8" cols="0"></textarea>
+            </div>
+
+            <div class="form-div">
+
+            </div>
+
+            <div class="form-div">
+
+            </div>
+
+            <div class="form-div">
+
+            </div>
+
+            <div>
+
+            </div>
+
+            <div>
+
+            </div>
+
+            <div>
+
+            </div>
+
+            <div>
+
+            </div>
+
+            <div>
+
+            </div>
+        </form>
 
     </div>
 

@@ -1,4 +1,3 @@
-/* Stylesheet - #ffcc00 */
 
 /* Global Styles */
 
@@ -18,6 +17,12 @@ body {
 	font-style: normal;
 }
 
+span {
+	font-size: 18px;
+	color: #ffcc00;
+	font-weight: bold;
+}
+
 /* Form Section */
 
 #form-container {
@@ -33,7 +38,21 @@ body {
 	background-color: white;
 }
 
+.form-div {
+	width: 90%;
+	margin: 0px auto 25px auto;
+}
+
 img {
 	width: 100%;
 	border-bottom: 4px solid #ffcc00;
+}
+
+header {
+	text-align: center;
+	color: black;
+}
+
+textarea {
+	width: 70%;
 }
