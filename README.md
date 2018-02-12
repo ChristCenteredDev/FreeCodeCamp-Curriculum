@@ -10,4 +10,6 @@
 - Personal Portfolio Webpage (Unfinished)
  
 ## JavaScript Algorithms and Data Structures
-### (Coming Soon)
+- Basic Algorithm Scripting (Unfinished)
+- Intermediate Algorithm Scripting (Unfinished)
+- JS Algorithms & Data Structures Projects (Unfinished)
