@@ -2,82 +2,81 @@
 /* Global Styles */
 
 html {
-	background: url(https://lh6.googleusercontent.com/4GJfgYb9omeGKHmQ7FBPVPvBXP2R6BtbyfeaJC0kQnjzfcW7BjNlLNpoXNbIPCr1QDwIxoiPkA=w2391) no-repeat center center fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
+    background: url(https://lh6.googleusercontent.com/4GJfgYb9omeGKHmQ7FBPVPvBXP2R6BtbyfeaJC0kQnjzfcW7BjNlLNpoXNbIPCr1QDwIxoiPkA=w2391) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 body {
-	font-family: "Arvo";
-	color: rgb(154,104,128);
-	font-weight: 400;
-	font-size: 16px;
-	font-style: normal;
+    font-family: "Arvo";
+    font-weight: 400;
+    font-size: 16px;
+    font-style: normal;
 }
 
 span {
-	font-size: 18px;
-	color: #ffcc00;
-	font-weight: bold;
+    font-size: 18px;
+    color: #ffcc00;
+    font-weight: bold;
 }
 
 .text-short, .text-long, #email {
-	padding: 5px 8px;
-	margin: 3px 0px 0px 0px;
+    padding: 5px 8px;
+    margin: 3px 0px 0px 0px;
 }
 
 /* Header */
 
 header {
-	width: 90%;
-	margin: 0px auto 25px auto;
+    width: 90%;
+    margin: 0px auto 25px auto;
 }
 
-header h1 {
-	margin: 0px;
-}
+    header h1 {
+        margin: 0px;
+    }
 
-header p {
-	margin: 0px !important;
-	text-align: left;
-}
+    header p {
+        margin: 0px !important;
+        text-align: left;
+    }
 
 /* Form Section */
 
 #form-container {
-	border: 4px solid #ffcc00; 
-	border-radius: 2px;
-	box-shadow: 0 5px 10px rgba(0,0,0,0.2);
-	box-sizing: border-box;
-	margin: 0.75rem auto;
-	padding: 0;
-	max-width: 700px;
-	min-width: 280px;
-	width: 100%;
-	background-color: white;
+    border: 4px solid #ffcc00;
+    border-radius: 2px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    box-sizing: border-box;
+    margin: 0.75rem auto;
+    padding: 0;
+    max-width: 700px;
+    min-width: 280px;
+    width: 100%;
+    background-color: white;
 }
 
 .form-div {
-	width: 90%;
-	margin: 0px auto 25px auto;
+    width: 90%;
+    margin: 0px auto 25px auto;
 }
 
 img {
-	width: 100%;
-	border-bottom: 4px solid #ffcc00;
+    width: 100%;
+    border-bottom: 4px solid #ffcc00;
 }
 
 .img-div {
-	margin: 0px 0px 25px 0px;
+    margin: 0px 0px 25px 0px;
 }
 
 header {
-	text-align: center;
-	color: black;
+    text-align: center;
+    color: black;
 }
 
 textarea {
-	width: 70%;
+    width: 70%;
 }
