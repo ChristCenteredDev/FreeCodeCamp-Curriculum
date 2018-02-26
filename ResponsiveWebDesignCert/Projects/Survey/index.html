@@ -85,15 +85,15 @@
                 <span>4. The code examples were accurate.</span> *<br />
 
                 <!-- Radio Group -->
-                <input type="radio" name="radio4" role="radio">
+                <input type="radio" name="radio4" role="radio" value="sa">
                 <label>Strongly Agree</label><br />
-                <input type="radio" name="radio4" role="radio">
+                <input type="radio" name="radio4" role="radio" value="a">
                 <label>Agree</label><br />
-                <input type="radio" name="radio4" role="radio">
+                <input type="radio" name="radio4" role="radio" value="nand">
                 <label>Neither Agree Nor Disagree</label><br />
-                <input type="radio" name="radio4" role="radio">
+                <input type="radio" name="radio4" role="radio" value="d">
                 <label>Disagree</label><br />
-                <input type="radio" name="radio4" role="radio">
+                <input type="radio" name="radio4" role="radio" value="sd">
                 <label>Strongly Disagree</label><br />
             </div>
 
@@ -113,9 +113,9 @@
                 <span>7. Would you recommend this book to others?</span> *<br />
 
                 <!-- Radio Group -->
-                <input type="radio" name="radio5" role="radio">
+                <input type="radio" name="radio5" role="radio" value="yes">
                 <label>Yes</label><br />
-                <input type="radio" name="radio5" role="radio">
+                <input type="radio" name="radio5" role="radio" value="no">
                 <label>No</label><br />
             </div>
 
@@ -138,11 +138,7 @@
 
             <!-- Set to Hidden - Required to pass FCC Test -->
             <div class="form-div" hidden>
-                <span>10. Please enter your age.</span> *<br />
-
-                <input type="text" id="number"
-                       name="contact" placeholder="Age" required>
-                <label for="number" id="number-label">Age</label>
+                <label id="number-label" for="number">Age:</label><input id="number" type="number" min="1" max="140" placeholder="18">
             </div>
 
             <!-- Set to Hidden - Required to pass FCC Test -->
