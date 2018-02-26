@@ -8,7 +8,7 @@
 - Completely Responsive Webpage
  
 ## Survey Page:
-![survey1](https://user-images.githubusercontent.com/24855472/36683716-49e8c792-1aec-11e8-87ff-eaf7f56142a4.png)
+![survey1](https://user-images.githubusercontent.com/24855472/36683927-eab8891e-1aec-11e8-84ac-7b83e4ce69e1.png)
 ![survey2](https://user-images.githubusercontent.com/24855472/36683723-4eba7a54-1aec-11e8-946e-94694d826055.png)
 ![survey3](https://user-images.githubusercontent.com/24855472/36683728-51805fa6-1aec-11e8-9873-4dd446dcebd1.png)
 
