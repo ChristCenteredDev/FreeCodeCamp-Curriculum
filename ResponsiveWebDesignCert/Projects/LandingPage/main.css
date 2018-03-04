@@ -7,13 +7,26 @@ body {
     margin: 0;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     font-size: 17px;
-    color: #926239;
     line-height: 1.6;
 }
 
 #showcase {
     background: URL("https://s.abcnews.com/images/Lifestyle/myrtle-beach-gty-jt-170728_31x13_992.jpg") no-repeat center center fixed;
+    filter: brightness(80%);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: lime;
+    font-weight: bold;
 }
+
+.container {
+    width: 40%;
+    text-align: center;
+}
+
+/* Add Media Queries to widen the container on smaller viewports */
