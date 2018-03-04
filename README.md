@@ -5,7 +5,7 @@
 ## Responsive Web Design Projects:
 - Tribute Page (https://codepen.io/ChristCenteredDev/pen/XVvGQa)
 - Survey Form (https://codepen.io/ChristCenteredDev/pen/oEYpoJ)
-- Product Landing Page (Unfinished)
+- Product Landing Page (https://codepen.io/ChristCenteredDev/pen/yvWVab)
 - Technical Documentation Page (Unfinished)
 - Personal Portfolio Webpage (Unfinished)
  
