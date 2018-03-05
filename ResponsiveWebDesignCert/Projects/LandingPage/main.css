@@ -76,9 +76,24 @@ body {
     color: black;
 }
 
+#section-d {
+    padding: 40px;
+    background: #f4f4f4;
+    color: black;
+}
+
+h1 {
+    padding: 20px;
+    text-align: center;
+}
+
+#how-it-works {
+    width: 800px;
+    margin: auto;
+}
+
 
 /* Add Media Queries to widen the container on smaller viewports */
-
 @media (max-width: 1150px) {
     .container {
         width: 65%;
@@ -86,6 +101,8 @@ body {
 }
 
 @media (max-width: 700px) {
+    /* Need to fix the video at this width */
+
     .container {
         width: 85%;
     }
