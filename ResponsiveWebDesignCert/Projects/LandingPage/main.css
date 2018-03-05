@@ -11,8 +11,7 @@ body {
 }
 
 #showcase {
-    background: URL("https://s.abcnews.com/images/Lifestyle/myrtle-beach-gty-jt-170728_31x13_992.jpg") no-repeat center center fixed;
-    filter: brightness(70%);
+    background: URL("https://i.ytimg.com/vi/CiMfrH9ySUc/maxresdefault.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     height: 100vh;
@@ -100,7 +99,7 @@ h1 {
     }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 850px) {
     /* Need to fix the video at this width */
 
     .container {
