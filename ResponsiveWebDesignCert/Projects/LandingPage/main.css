@@ -12,7 +12,7 @@ body {
 
 #showcase {
     background: URL("https://s.abcnews.com/images/Lifestyle/myrtle-beach-gty-jt-170728_31x13_992.jpg") no-repeat center center fixed;
-    filter: brightness(80%);
+    filter: brightness(70%);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     height: 100vh;
@@ -20,8 +20,25 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: lime;
+    color: #fff;
     font-weight: bold;
+}
+
+#showcase .button {
+    font-size: 18px;
+    text-decoration: none;
+    color: #fff;
+    border: #fff 2px solid;
+    padding: 10px 20px;
+    border-radius: 10px;
+    position: relative;
+    top: 20px;
+}
+
+#showcase .button:hover {
+    color: black;
+    background: #fff;
+    border: black 2px solid;
 }
 
 .container {
@@ -29,4 +46,53 @@ body {
     text-align: center;
 }
 
+#section-a {
+    padding: 20px;
+    background: black;
+    color: #fff;
+    text-align: center;
+}
+
+#section-b {
+    padding: 20px;
+    background: #f4f4f4;
+    color: black;
+    text-align: center;
+}
+
+#section-c {
+    display: flex;
+}
+
+#section-c .box-1, #section-c .box-3 {
+    padding: 20px;
+    background: black;
+    color: #fff;
+}
+
+#section-c .box-2 {
+    padding: 20px;
+    background: #f4f4f4;
+    color: black;
+}
+
+
 /* Add Media Queries to widen the container on smaller viewports */
+
+@media (max-width: 1150px) {
+    .container {
+        width: 65%;
+    }
+}
+
+@media (max-width: 700px) {
+    .container {
+        width: 85%;
+    }
+}
+
+@media (max-width: 550px) {
+    .container {
+        width: 95%;
+    }
+}
