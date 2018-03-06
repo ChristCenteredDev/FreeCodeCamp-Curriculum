@@ -124,6 +124,10 @@ h1 {
     font-size: 25px;
 }
 
+.price-box .header.header-green {
+    background-color: #4caf50;
+}
+
 .price-box li {
     padding: 20px;
     border-bottom: 1px solid #eee;
