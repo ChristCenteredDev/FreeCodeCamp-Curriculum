@@ -184,6 +184,10 @@ h1 {
         height: 100%;
     }
 
+    #video-container {
+        width: auto;
+    }
+
     .col {
         width: 100%;
     }
