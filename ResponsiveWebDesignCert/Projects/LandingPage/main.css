@@ -202,4 +202,8 @@ h1 {
     .container {
         width: 95%;
     }
+
+    #section-c {
+        flex-direction: column;
+    }
 }
