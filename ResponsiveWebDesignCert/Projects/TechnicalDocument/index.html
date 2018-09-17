@@ -20,9 +20,7 @@
         <a href="#javascript" class="nav-link">JavaScript</a>
         <a href="#variables" class="nav-link">Variables</a>
         <a href="#scope" class="nav-link">Scope</a>
-        <a href="#conditionals" class="nav-link">Conditionals</a>
         <a href="#functions" class="nav-link">Functions</a>
-        <a href="#events" class="nav-link">Events</a>
     </nav>
 
     <main id="main-doc">
@@ -41,10 +39,10 @@
 
             <code>
                 <pre>
-                function greetMe(yourName) {
-                    alert("Hello " + yourName);
-                }
-                greetMe("World");
+    function greetMe(yourName) {
+        alert("Hello " + yourName);
+    }
+    greetMe("World");
                 </pre>
             </code>
 
@@ -58,49 +56,65 @@
         </section>
 
         <section class="main-section" id="variables">
-            <header>Variables</header>
+            <header><h2>Variables</h2></header>
             <p>Global variables are in fact properties of the global object.  In web pages the global object is window, so you can set and access global variables using the window.variable syntax.</p>
             <p>Consequently, you can access global variables declared in one window or frame from another window or frame by specifying the window or frame name.  For example, if a variable called phoneNumber is declared in a document, you can refer to this variable from an iframe as parent.phoneNumber.</p>
-            <code></code>
-            <code></code>
-            <code></code>
-            <code></code>
-            <code></code>
+            <code>
+                <pre>
+    const PI = 3.14;
+                </pre>
+            </code>
+            
+            <code>
+                <pre>
+    // THIS WILL CAUSE AN ERROR
+    function f() {
+		
+    }
+
+    const f = 5;
+
+    // THIS WILL ALSO CAUSE AN ERROR
+    function f() {
+	    const g = 5;
+	    var g;
+	    // STATEMENTS
+    }           </pre>
+            </code>
         </section>
 
         <section class="main-section" id="scope">
-            <header>Scope</header>
+            <header><h2>Scope</h2></header>
             <p>When you declare a variable outside of any function, it is called a global variable, because it is available to any other code in the current document.  When you declare a variable within a function, it is called a local variable, because it is in available only within that function.</p>
             <p>JavaScript before ECMAScript 2015 does not have block statement scope; rather, a variable declared within a block is local to the function (or global scope) that the block resides within.  For example the following code will log 5, because the scope of x is the function (or global context) within which x is declared, not the block, which in this case is an if statement.</p>
-            <code></code>
-        </section>
+            <code>
+                <pre>
+    if(true) {
+	    var x = 5;
+    }
 
-        <section class="main-section" id="conditionals">
-            <header>Conditionals</header>
-            <p></p>
-            <p></p>
+    console.log(x); // 5
+	            </pre>
+            </code>
         </section>
 
         <section class="main-section" id="functions">
-            <header>Functions</header>
-            <p></p>
-            <p></p>
+            <header><h2>Functions</h2></header>
+            <p>Functions store instructions to reusable code.</p>
+            <p>They are one of the fundamentals of software.</p>
+
+            <code>
+                <pre>
+    function square(number) {
+	    return number * number;
+    }
+	            </pre>
+            </code>
         </section>
 
-        <section class="main-section" id="events">
-            <header>Events</header>
-            <p></p>
-            <p></p>
-
-            <ul hidden>
-                <!-- Strictly to pass a test, unused -->
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
-        </section>
+        <footer>
+            <a href="#navbar">Return to Top</a>
+        </footer>
     </main>
 
     <!-- External JS Script -->
