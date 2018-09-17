@@ -6,7 +6,7 @@
 - Tribute Page (https://codepen.io/ChristCenteredDev/pen/XVvGQa)
 - Survey Form (https://codepen.io/ChristCenteredDev/pen/oEYpoJ)
 - Product Landing Page (https://codepen.io/ChristCenteredDev/pen/yvWVab)
-- Technical Documentation Page (Unfinished)
+- Technical Documentation Page (https://codepen.io/ChristCenteredDev/pen/YOJyoo)
 - Personal Portfolio Webpage (Unfinished)
  
 ## JavaScript Algorithms and Data Structures
