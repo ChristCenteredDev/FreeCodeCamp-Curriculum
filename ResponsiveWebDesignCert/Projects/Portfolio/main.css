@@ -1,48 +1,48 @@
 ﻿* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Hind", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Hind", sans-serif;
 }
 
 body {
-    background-color: black;
+  background-color: black;
 }
 
 nav {
-    padding: 40px 10%;
-    background-color: orange;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 1px solid #fff;
+  padding: 40px 10%;
+  background-color: orange;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #fff;
 }
 
 nav #logo {
-    text-decoration: none;
-    color: #fff;
-    font-size: 30px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 30px;
 }
 
 nav ul li {
-    display: inline-block;
+  display: inline-block;
 }
 
 nav #logo span {
-    color: #17bed2;
+  color: #17bed2;
 }
 
 nav li a {
-    text-decoration: none;
-    color: white;
-    font-size: 14px;
-    font-weight: 600;
-    cursor: pointer;
-    text-transform: uppercase;
-    padding: 20px;
-    transition: color 0.4s ease-in-out;
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  text-transform: uppercase;
+  padding: 20px;
+  transition: color 0.4s ease-in-out;
 }
 
 nav li a:hover {
-    color: #17bed2;
+  color: #17bed2;
 }
