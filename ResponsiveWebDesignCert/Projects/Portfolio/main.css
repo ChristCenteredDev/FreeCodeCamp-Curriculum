@@ -6,12 +6,12 @@
 }
 
 body {
-  background-color: black;
+  background-color: darkgrey;
 }
 
+/* Navigation */
 nav {
   padding: 40px 10%;
-  background-color: orange;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -45,4 +45,27 @@ nav li a {
 
 nav li a:hover {
   color: #17bed2;
+}
+
+/* HEADER */
+
+header {
+  height: 70vh;
+  background-image: url("http://i64.tinypic.com/30d9pip.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+header .name {
+  font-size: 70px;
+  color: #fff;
+  line-height: 1;
+  margin-bottom: 15px;
+  padding-left: 10%;
+}
+
+header .job {
+  font-size: 25px;
+  color: #fff;
+  padding-left: 10%;
 }
